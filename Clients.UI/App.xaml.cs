@@ -10,7 +10,7 @@ using Plugin.Connectivity.Abstractions;
 using Utils.Helpers;
 using Utils.Interfaces;
 using Xamarin.Forms;
-//using XamarinEvolve.Clients.Portable;
+using Clients.Portable;
 
 
 

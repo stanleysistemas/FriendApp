@@ -115,6 +115,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FriendApp\Clients.Portable\Clients.Portable.csproj">
+      <Project>{fc094e39-0718-43a1-9a9c-5960c66132cd}</Project>
+      <Name>Clients.Portable</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FriendApp\DataStore.Abstractions\DataStore.Abstractions.csproj">
       <Project>{992eaef2-377e-41f0-badd-6ef5a897776b}</Project>
       <Name>DataStore.Abstractions</Name>
