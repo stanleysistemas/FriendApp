@@ -10,13 +10,13 @@ namespace DataStore.Abstractions
     {
         bool IsInitialized { get; }
         Task InitializeAsync();
-        ICategoriaStore CategoryStore { get; }
+       // ICategoriaStore CategoryStore { get; }
        // IFavoriteStore FavoriteStore { get; }
        // IFeedbackStore FeedbackStore { get; }
       //  ISessionStore SessionStore { get; }
       //  ISpeakerStore SpeakerStore { get; }
-        IPatrocinadorStore SponsorStore { get; }
-        IEventoStore EventStore { get; }
+      //  IPatrocinadorStore SponsorStore { get; }
+      //  IEventoStore EventStore { get; }
        // IMiniHacksStore MiniHacksStore { get; }
         INotificationStore NotificationStore { get; }
 

@@ -36,11 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseDataObject.cs" />
-    <Compile Include="Categoria.cs" />
-    <Compile Include="EventoDestaque.cs" />
-    <Compile Include="NivelPatrocinador.cs" />
     <Compile Include="Notification.cs" />
-    <Compile Include="Patrocinador.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
